@@ -1,0 +1,89 @@
+{
+    "name": "react-recompose-boilerplate",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "immutable": "^4.0.0-rc.12",
+        "prop-types": "^15.7.2",
+        "react": "^16.9.0",
+        "react-dom": "^16.9.0",
+        "react-redux": "^7.1.0",
+        "react-router-dom": "^5.0.1",
+        "react-scripts": "3.1.0",
+        "recompose": "^0.30.0",
+        "redux": "^4.0.4",
+        "redux-actions": "^2.6.5",
+        "redux-devtools-extension": "^2.13.8"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "parser": "babel-eslint",
+        "extends": "airbnb",
+        "plugins": [
+            "react",
+            "jsx-a11y",
+            "import"
+        ],
+        "parserOptions": {
+            "ecmaVersion": 2016,
+            "sourceType": "module"
+        },
+        "env": {
+            "es6": true,
+            "browser": true,
+            "node": true
+        },
+        "rules": {
+            "quotes": [
+                "error",
+                "double",
+                {
+                    "avoidEscape": true
+                }
+            ],
+            "indent": [
+                "error",
+                4
+            ],
+            "react/jsx-indent": [
+                "error",
+                4
+            ],
+            "react/jsx-indent-props": [
+                "error",
+                4
+            ],
+            "react/prefer-stateless-function": 0,
+            "react/jsx-one-expression-per-line": 0,
+            "react/jsx-filename-extension": [
+                1,
+                {
+                    "extensions": [
+                        ".js",
+                        ".jsx"
+                    ]
+                }
+            ]
+        }
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "eslint-config-airbnb": "^17.1.1"
+    }
+}
